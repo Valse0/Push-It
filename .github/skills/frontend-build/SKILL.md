@@ -30,3 +30,23 @@ function selectCard(side) {}
 
 // 4. BAŞLATMA
 document.addEventListener('DOMContentLoaded', initGame);
+
+Hata Ayıklama
+
+• console.log ile aşırı kalabalık etme
+
+• Hata mesajlarını kullanıcıya göster: showMessage("Hata: ...", "error")
+
+• Değişken adları anlaşılır olsun: remainingRisk → kalanRisk değil, İngilizce kullan
+
+Doğrulama
+
+Kodu yazdıktan sonra şunları kontrol et:
+
+□ Hiç harici <script> veya <link> yok
+
+□ Tüm butonlar çalışıyor
+
+□ Sayfa kaydırılmıyor, taşma yok
+
+□ Mobilde tıklama alanları yeterince büyük (en az 44×44px)
