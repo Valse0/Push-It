@@ -35,12 +35,14 @@
   backface-visibility: hidden;
   border-radius: 12px;
   overflow: hidden;
-  /* 1'den gelen neon hava */
   border: 2px solid #00f0ff;
   box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
 }
 
+.flip-card-front {
+  transform: rotateY(180deg);
+}
+
 .flip-card-back {
   background-color: #0d0d1a;
-  transform: rotateY(180deg);
 }
